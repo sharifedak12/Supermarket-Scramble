@@ -1,0 +1,105 @@
+﻿{
+    "m_Datas": [
+        {
+            "Key": "A2U.VisibleLayerOnly",
+            "Value": "True",
+            "Type": 3
+        },
+        {
+            "Key": "A2U.IgnoreBackgroundLayer",
+            "Value": "True",
+            "Type": 3
+        },
+        {
+            "Key": "A2U.CreateAnimatorController",
+            "Value": "True",
+            "Type": 3
+        },
+        {
+            "Key": "A2U.UserPivot",
+            "Value": "0.5\n0.5",
+            "Type": 5
+        },
+        {
+            "Key": "A2U.UserPivotModeIndex",
+            "Value": "0",
+            "Type": 1
+        },
+        {
+            "Key": "A2U.PixelPerUnit",
+            "Value": "16",
+            "Type": 1
+        },
+        {
+            "Key": "A2U.NamingStrategy_Texture",
+            "Value": "{Ase}(_{Frame})",
+            "Type": 2
+        },
+        {
+            "Key": "A2U.NamingStrategy_Sprite",
+            "Value": "{Slice}",
+            "Type": 2
+        },
+        {
+            "Key": "A2U.NamingStrategy_Animation",
+            "Value": "{Ase}(_{Tag})",
+            "Type": 2
+        },
+        {
+            "Key": "A2U.NamingStrategy_Animator",
+            "Value": "{Ase}",
+            "Type": 2
+        },
+        {
+            "Key": "A2U.TextureExportModeIndex",
+            "Value": "0",
+            "Type": 1
+        },
+        {
+            "Key": "A2U.AnimationExportModeIndex",
+            "Value": "0",
+            "Type": 1
+        },
+        {
+            "Key": "A2U.TrimTexture",
+            "Value": "True",
+            "Type": 3
+        },
+        {
+            "Key": "A2U.TrimSprite",
+            "Value": "False",
+            "Type": 3
+        },
+        {
+            "Key": "A2U.PaddingModeIndex",
+            "Value": "0",
+            "Type": 1
+        },
+        {
+            "Key": "A2U.FolderForTask",
+            "Value": "True",
+            "Type": 3
+        },
+        {
+            "Key": "A2U.SeparateEachLayer",
+            "Value": "False",
+            "Type": 3
+        },
+        {
+            "Key": "A2U.PaddingTargetIndex",
+            "Value": "0",
+            "Type": 1
+        },
+        {
+            "Key": "A2U.FolderForLayer",
+            "Value": "False",
+            "Type": 3
+        },
+        {
+            "Key": "A2U.IgnoreEmptySlice",
+            "Value": "True",
+            "Type": 3
+        }
+    ],
+    "m_Code": "0\r\n0\r\n0\r\n0\r\n0\r\n0.500\r\n0.500\r\n16\r\nTrue\r\nTrue\r\nFalse\r\nTrue\r\nFalse\r\nTrue\r\nFalse\r\nTrue\r\nTrue\r\n{Ase}(_{Frame})\r\n{Slice}\r\n{Ase}(_{Tag})\r\n{Ase}\r\n"
+}
