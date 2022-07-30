@@ -6,7 +6,7 @@ using UnityEngine;
 public class cashier : MonoBehaviour
 {
 
-    public bool canTalk = false;
+    private bool canTalk = false;
     private ListHandler listHandler;
     private Timer timer;
     // Start is called before the first frame update
@@ -21,9 +21,10 @@ public class cashier : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         if (canTalk & (Input.GetButtonDown("interact")) & (listHandler.shoppingComplete == true))   
+        
+         if (canTalk && (Input.GetButtonDown("interact")) && (listHandler.shoppingComplete == true))   
          {
-                    Talk(); 
+            Talk();
         }
     }
         
@@ -32,7 +33,7 @@ public class cashier : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Can talk");
+
             canTalk = true;
         }
     }
@@ -41,7 +42,6 @@ public class cashier : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Cannot talk");
             canTalk = false;
         }
     }
@@ -51,7 +51,12 @@ public class cashier : MonoBehaviour
         Transform child = transform.Find("Thanks");
         child.gameObject.SetActive(true);
         timer.TimerStop();
-        SceneManager.LoadScene(sceneBuildIndex: 1);
+        StartCoroutine(Wait());
     }
 
+    IEnumerator Wait() {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(sceneBuildIndex: 1);
+
+ }
 }

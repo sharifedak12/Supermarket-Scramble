@@ -15,11 +15,7 @@ public void Update()
   if(countdown > 0 && timerStop == false)     
   {         
     countdown -= Time.deltaTime;     
-  }
-  else
-  {
-    countdown = 0;
-  }     
+  }    
     DisplayTime(countdown);
     TimerDone();
 }
