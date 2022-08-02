@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7b9137a033014354bbaf270268fcfe5, type: 3}
   m_Name: Cereal
   m_EditorClassIdentifier: 
-  objectName: Grocery Item
+  objectName: Cereal
   icon: {fileID: 416905401, guid: 8e19f6bc77a264716b665ee2c618f52d, type: 3}
