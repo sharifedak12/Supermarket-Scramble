@@ -13,7 +13,7 @@ public class ShoppingBagManager : MonoBehaviour
     public void DrawItem(GroceryItem item)
     {
         GameObject listItem = Instantiate(listItemPrefab) as GameObject;
-        listItem.transform.SetParent(this.transform);
+        listItem.transform.SetParent(this.transform, false);
         listItem.GetComponent<Image>().sprite = item.icon;
         listItem.name = item.objectName;
     }

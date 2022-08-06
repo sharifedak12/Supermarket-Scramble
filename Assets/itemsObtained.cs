@@ -13,7 +13,7 @@ public class itemsObtained : MonoBehaviour
         foreach (GroceryItem groceryItem in LevelCompleteItems.items) //
         {
                     GameObject listItem = Instantiate(completeItemPrefab) as GameObject; 
-                    listItem.transform.SetParent(this.transform);
+                    listItem.transform.SetParent(this.transform, false);
                     Transform image = listItem.transform.Find("Image");
                     image.GetComponent<Image>().sprite = groceryItem.icon;
                     Transform text = listItem.transform.Find("Text");

@@ -15,7 +15,7 @@ public class NPCMovementHorizontal : MonoBehaviour {
     public float waitTime;
     private float waitCounter;
 
-    private int walkDirection;
+    public int walkDirection;
 
     public Animator anim;
  
@@ -24,7 +24,7 @@ public class NPCMovementHorizontal : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         waitCounter = waitTime;
-        walkCounter = walkTime;
+        walkCounter = walkTime * 60;
 
         ChooseDirection();
          
@@ -93,8 +93,15 @@ public class NPCMovementHorizontal : MonoBehaviour {
 
     private void ChooseDirection()
     {
-        walkDirection = Random.Range(0, 1);
+        if (walkDirection == 0)
+        {
+            walkDirection = 1;
+        }
+        else
+        {
+            walkDirection = 0;
+        }
         isWalking = true;
-        walkCounter = walkTime;
+        walkCounter = walkTime * 60;
     }
 }

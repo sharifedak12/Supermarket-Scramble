@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 896b1442ab56c4e4ea9d41f79aeb03c1
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 03df037309713425992730c5afdff354
+  - enabled: 1
+    path: Assets/Scenes/City Overworld.unity
+    guid: 7fea8b9dbb9c643fa8abe873c9142704
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Intro.unity
+    guid: d531f4083af3b49bd93708bca5f1f7db
   m_configObjects: {}

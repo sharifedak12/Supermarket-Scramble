@@ -16,8 +16,8 @@ public class GroceryListHandler : MonoBehaviour
         foreach (GroceryItem groceryItem in listHandler.groceryList)
         {
                     GameObject listItem = Instantiate(listItemPrefab) as GameObject;
-                    listItem.transform.SetParent(this.transform);
-                    listItem.GetComponent<Image>().sprite = groceryItem.icon;
+                    listItem.transform.SetParent(this.transform, false);
+                    listItem.GetComponent<Image>().sprite = groceryItem.icon; 
                     listItem.name = groceryItem.objectName;
         }
     }

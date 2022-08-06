@@ -9,6 +9,7 @@ public class cashier : MonoBehaviour
     private bool canTalk = false;
     private ListHandler listHandler;
     private Timer timer;
+    private string currentScene;
 
     // Start is called before the first frame update
     void Start()
@@ -53,6 +54,22 @@ public class cashier : MonoBehaviour
         child.gameObject.SetActive(true);
         timer.TimerStop();
         LevelCompleteItems.AddItems(listHandler.bag);
+        currentScene = SceneManager.GetActiveScene().name;
+        switch (currentScene)
+            {
+                case "Level 1":
+                    GlobalVariables.nextLevel = "Level 2 Intro";
+                    break;
+                case "Level 2":
+                    GlobalVariables.nextLevel = "Level 3 Intro";
+                    break;
+                case "Level 3":
+                    GlobalVariables.nextLevel = "Level 4 Intro";
+                    break;
+                case "Level 4":
+                    GlobalVariables.nextLevel = "Level 5 Intro";
+                    break;
+            }
         StartCoroutine(Wait());
     }
 
