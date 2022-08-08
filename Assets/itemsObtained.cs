@@ -19,6 +19,7 @@ public class itemsObtained : MonoBehaviour
                     Transform text = listItem.transform.Find("Text");
                     text.GetComponent<TextMeshProUGUI>().text = groceryItem.objectName;
                     listItem.name = groceryItem.objectName;
+                    Debug.Log(groceryItem.objectName);
         }
     }
 

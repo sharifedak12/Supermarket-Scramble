@@ -10,6 +10,7 @@ public class cashier : MonoBehaviour
     private ListHandler listHandler;
     private Timer timer;
     private string currentScene;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -51,6 +52,7 @@ public class cashier : MonoBehaviour
     private void Talk()
     {
         Transform child = transform.Find("Thanks");
+        audioSource.Play();
         child.gameObject.SetActive(true);
         timer.TimerStop();
         LevelCompleteItems.AddItems(listHandler.bag);
@@ -69,13 +71,16 @@ public class cashier : MonoBehaviour
                 case "Level 4":
                     GlobalVariables.nextLevel = "Level 5 Intro";
                     break;
+                case "Level 5":
+                    GlobalVariables.nextLevel = "Ending";
+                    break;
             }
         StartCoroutine(Wait());
     }
 
     IEnumerator Wait() {
-        yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(sceneBuildIndex: 1);
+        yield return new WaitForSeconds(1);
+        Initiate.Fade("Level Complete!", Color.black, 1.0f);
 
  }
 }

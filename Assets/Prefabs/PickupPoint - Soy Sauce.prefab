@@ -208,6 +208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canPickup: 0
   item: {fileID: 11400000, guid: 2a5467d171fd240f685939ec6d0440f1, type: 2}
+  sFX: {fileID: 0}
 --- !u!61 &8755902393070944571
 BoxCollider2D:
   m_ObjectHideFlags: 0

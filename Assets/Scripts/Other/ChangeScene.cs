@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
     public string scene;
-    public Color loadToColor = Color.white;
+    public Color loadToColor = Color.black;
     public Animator animator;
     
 	public void changeScene()
@@ -16,7 +16,12 @@ public class ChangeScene : MonoBehaviour
     {
         Initiate.Fade(GlobalVariables.nextLevel, loadToColor, 1.0f);
     }
-    
+
+    public void changeToCurrentScene()
+    {
+        Initiate.Fade(GlobalVariables.currentLevel, loadToColor, 1.0f);
+    }
+
     public void UpdatePosition()
     {
         animator.SetFloat("moveX", 1);

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class NPCMovement : MonoBehaviour {
-
+    
     public float moveSpeed;
     private Rigidbody2D rb;
     public bool isWalking;

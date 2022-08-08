@@ -7,11 +7,11 @@ public class PickupObject : MonoBehaviour
     public bool canPickup = true;
     private ListHandler listHandler;
     public GroceryItem item;
+    public AudioSource sFX;
     // Start is called before the first frame update
     void Start()
     {
         listHandler = GameObject.Find("ListHandler").GetComponent<ListHandler>();
-
     }
 
     // Update is called once per frame
@@ -34,6 +34,7 @@ public class PickupObject : MonoBehaviour
         GameObject.Find("Shopping Bag").GetComponent<ShoppingBagManager>().DrawItem(item);
         listHandler.bag.Add(item);
         Destroy(this.gameObject);
+        sFX.Play();
     }
 
 

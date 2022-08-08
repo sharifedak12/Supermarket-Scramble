@@ -17,7 +17,12 @@ public void Update()
     countdown -= Time.deltaTime;     
   }    
     DisplayTime(countdown);
-    TimerDone();
+    if(countdown <= 0)
+    {
+        GlobalVariables.currentLevel = SceneManager.GetActiveScene().name;
+        timerStop = true;
+        Initiate.Fade("Game Over", Color.black, 1.0f);
+    }
 }
 
 public void DisplayTime(float timeToDisplay)
@@ -40,7 +45,7 @@ public void TimerDone()
 {
   if(countdown == 0)     
   {         
-    SceneManager.LoadScene(sceneBuildIndex: 0);  
+    Initiate.Fade("Game Over", Color.black, 1.0f);
   } 
 }
 
