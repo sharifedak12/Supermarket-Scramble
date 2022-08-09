@@ -7,6 +7,7 @@ TagManager:
   - Moveable
   - Map
   - Boundary
+  - Slippery
   layers:
   - Default
   - TransparentFX
