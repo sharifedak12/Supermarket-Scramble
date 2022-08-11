@@ -28,6 +28,8 @@ public class cashier : MonoBehaviour
          if (canTalk && (Input.GetButtonDown("interact")) && (listHandler.shoppingComplete == true))   
          {
             Talk();
+            canTalk = false;
+            StartCoroutine(PreventDoubleClick());
         }
     }
         
@@ -83,4 +85,9 @@ public class cashier : MonoBehaviour
         Initiate.Fade("Level Complete!", Color.black, 1.0f);
 
  }
+    IEnumerator PreventDoubleClick()
+    {
+        yield return new WaitForSeconds(1);
+        canTalk = true;
+    }
 }

@@ -10,24 +10,18 @@ public class Chef : MonoBehaviour
     public int pickupTime;
     public GameObject itemIndicator;
     public AudioSource sFX;
-    public bool canInteract = false;
-    public bool isWaiting = false;
-    public bool canPickup = false;
-    private TMP_Text waitMessage;
-    private GameObject waitMessageBox;
-    private GameObject successMessage;
-    private TMP_Text readyMessage;
+    private bool canInteract = false;
+    private bool isWaiting = false;
+    private bool canPickup = false;
+    public TMP_Text waitMessage;
+    public GameObject waitMessageBox;
+    public GameObject successMessage;
+    public TMP_Text readyMessage;
 
     void Start()
     {
         listHandler = GameObject.Find("ListHandler").GetComponent<ListHandler>();
-        sFX = GetComponent<AudioSource>();
-        waitMessage = GameObject.Find("WaitMessage").GetComponent<TMP_Text>();
-        waitMessageBox = GameObject.Find("WaitMessageBox");
-        successMessage = GameObject.Find("SuccessMessage");
-        readyMessage = GameObject.Find("ReadyMessage").GetComponent<TMP_Text>();
-        waitMessageBox.SetActive(false);
-        successMessage.SetActive(false);
+        sFX = GameObject.Find("Pickup SFX").GetComponent<AudioSource>();
     }
 
     void Update()
@@ -35,11 +29,11 @@ public class Chef : MonoBehaviour
         if (Input.GetButtonDown("interact"))
         {
             if (canInteract)
-            {
-                          
+            {          
                 Interact();
             }
         }
+      
     }
 
     public void Interact()
@@ -70,6 +64,7 @@ public class Chef : MonoBehaviour
     IEnumerator waitForPickup()
     {
         waitMessage.text = item.objectName + " will be ready in " + pickupTime + " seconds!";
+        Debug.Log(waitMessage.text);
         waitMessageBox.SetActive(true);
         yield return new WaitForSeconds(2);
         waitMessage.text = "";
@@ -79,7 +74,7 @@ public class Chef : MonoBehaviour
         canPickup = true;
         isWaiting = false;
         waitMessageBox.SetActive(true);
-        readyMessage.text = item.objectName + "is ready for pickup!";
+        readyMessage.text = item.objectName + " is ready for pickup!";
         yield return new WaitForSeconds(2);
         waitMessageBox.SetActive(false);
         readyMessage.text = "";

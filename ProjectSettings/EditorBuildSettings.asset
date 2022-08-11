@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/City Overworld.unity
     guid: 7fea8b9dbb9c643fa8abe873c9142704
   - enabled: 1
-    path: Assets/Scenes/Level 2 Intro.unity
+    path: Assets/Scenes/Level 4 Intro.unity
     guid: d531f4083af3b49bd93708bca5f1f7db
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 9c4a849bd1bda4bb59b84687fa635244
   m_configObjects: {}
