@@ -9,6 +9,7 @@ public class ListHandler : MonoBehaviour
     public int listLength;
     public List<ScriptableObject> bag = new List<ScriptableObject>();
     public bool shoppingComplete = false;
+    public bool onLastItem = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,16 @@ public class ListHandler : MonoBehaviour
         {
             completeMessage.SetActive(false);
         }
+
+        if (bag.Count == listLength - 1)
+        {
+            onLastItem = true;
+        }
+        else
+        {
+            onLastItem = false;
+        }
+
     }
 
 }
