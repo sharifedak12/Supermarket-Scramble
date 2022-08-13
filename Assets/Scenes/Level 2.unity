@@ -24247,10 +24247,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2a5467d171fd240f685939ec6d0440f1, type: 2}
   - {fileID: 11400000, guid: 9fefc3b4f5aa74bcf952194d49883c79, type: 2}
   - {fileID: 11400000, guid: 6746b7b8b8e7f43c3b473e5671ae2ca8, type: 2}
+  groceryItem: {fileID: 0}
   completeMessage: {fileID: 0}
   listLength: 7
   bag: []
   shoppingComplete: 0
+  onLastItem: 0
 --- !u!4 &1547644516
 Transform:
   m_ObjectHideFlags: 0
@@ -26182,7 +26184,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.17150646, y: 0.06201744}
+  m_Offset: {x: 0.1197924, y: -0.01727748}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -26193,7 +26195,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.26420915, y: 0.8759651}
+  m_Size: {x: 1.098529, y: 1.034555}
   m_EdgeRadius: 0
 --- !u!4 &2079837624
 Transform:
@@ -26203,7 +26205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079837621}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5, y: 5.63, z: 0}
+  m_LocalPosition: {x: -1.45, y: 3.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

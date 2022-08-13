@@ -11,8 +11,6 @@ public class IceCreamCounter : MonoBehaviour
     public GameObject itemIndicator;
     public AudioSource sFX;
     private bool canInteract = false;
-    private bool isWaiting = false;
-    private bool canPickup = false;
     public GameObject waitMessageBox;
     public GameObject successMessage;
     public TMP_Text notReadyMessage;
@@ -65,10 +63,10 @@ public class IceCreamCounter : MonoBehaviour
     IEnumerator waitForPickup()
     {
         waitMessageBox.SetActive(true);
-        notReadyMessage.SetActive(true);
+        notReadyMessage.text = "Sorry, you can't pick up " + item.objectName + " yet!";
         yield return new WaitForSeconds(2);
         waitMessageBox.SetActive(false);
-        notreadyMessage.SetActive(false);
+        notReadyMessage.text = "";
         }
 
     void OnTriggerEnter2D(Collider2D other)

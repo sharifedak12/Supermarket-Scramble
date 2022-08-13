@@ -83,12 +83,12 @@ TextureImporter:
       name: NPC with Cart 2
       rect:
         serializedVersion: 2
-        x: 2
-        y: 10
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1
+        y: 1
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -104,12 +104,12 @@ TextureImporter:
       name: NPC with Cart 2_1
       rect:
         serializedVersion: 2
-        x: 52
-        y: 10
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 51
+        y: 1
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -125,12 +125,12 @@ TextureImporter:
       name: NPC with Cart 2_2
       rect:
         serializedVersion: 2
-        x: 102
-        y: 10
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 101
+        y: 1
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,12 +146,12 @@ TextureImporter:
       name: NPC with Cart 2_3
       rect:
         serializedVersion: 2
-        x: 152
-        y: 10
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 151
+        y: 1
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: NPC with Cart 2_4
       rect:
         serializedVersion: 2
-        x: 202
-        y: 10
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 201
+        y: 1
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,12 +188,12 @@ TextureImporter:
       name: NPC with Cart 2_5
       rect:
         serializedVersion: 2
-        x: 252
-        y: 10
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 251
+        y: 1
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: NPC with Cart 2_6
       rect:
         serializedVersion: 2
-        x: 317
-        y: 14
-        width: 17
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 301
+        y: 1
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,12 +230,12 @@ TextureImporter:
       name: NPC with Cart 2_7
       rect:
         serializedVersion: 2
-        x: 367
-        y: 14
-        width: 17
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 351
+        y: 1
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,12 +251,12 @@ TextureImporter:
       name: NPC with Cart 2_8
       rect:
         serializedVersion: 2
-        x: 417
-        y: 13
-        width: 17
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 401
+        y: 1
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,12 +272,12 @@ TextureImporter:
       name: NPC with Cart 2_9
       rect:
         serializedVersion: 2
-        x: 467
-        y: 13
-        width: 17
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 451
+        y: 1
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -293,12 +293,12 @@ TextureImporter:
       name: NPC with Cart 2_10
       rect:
         serializedVersion: 2
-        x: 17
-        y: 63
-        width: 17
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1
+        y: 51
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: NPC with Cart 2_11
       rect:
         serializedVersion: 2
-        x: 67
-        y: 63
-        width: 17
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 51
+        y: 51
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,12 +335,12 @@ TextureImporter:
       name: NPC with Cart 2_12
       rect:
         serializedVersion: 2
-        x: 112
-        y: 60
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 101
+        y: 51
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -356,12 +356,12 @@ TextureImporter:
       name: NPC with Cart 2_13
       rect:
         serializedVersion: 2
-        x: 162
-        y: 60
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 151
+        y: 51
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -377,12 +377,12 @@ TextureImporter:
       name: NPC with Cart 2_14
       rect:
         serializedVersion: 2
-        x: 212
-        y: 60
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 201
+        y: 51
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -398,12 +398,12 @@ TextureImporter:
       name: NPC with Cart 2_15
       rect:
         serializedVersion: 2
-        x: 262
-        y: 60
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 251
+        y: 51
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -419,12 +419,12 @@ TextureImporter:
       name: NPC with Cart 2_16
       rect:
         serializedVersion: 2
-        x: 312
-        y: 60
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 301
+        y: 51
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -440,12 +440,12 @@ TextureImporter:
       name: NPC with Cart 2_17
       rect:
         serializedVersion: 2
-        x: 362
-        y: 60
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 351
+        y: 51
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -461,12 +461,12 @@ TextureImporter:
       name: NPC with Cart 2_18
       rect:
         serializedVersion: 2
-        x: 417
+        x: 401
         y: 51
-        width: 17
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -482,12 +482,12 @@ TextureImporter:
       name: NPC with Cart 2_19
       rect:
         serializedVersion: 2
-        x: 467
+        x: 451
         y: 51
-        width: 17
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -503,12 +503,12 @@ TextureImporter:
       name: NPC with Cart 2_20
       rect:
         serializedVersion: 2
-        x: 17
+        x: 1
         y: 101
-        width: 17
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -524,12 +524,12 @@ TextureImporter:
       name: NPC with Cart 2_21
       rect:
         serializedVersion: 2
-        x: 67
+        x: 51
         y: 101
-        width: 17
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -545,12 +545,12 @@ TextureImporter:
       name: NPC with Cart 2_22
       rect:
         serializedVersion: 2
-        x: 117
+        x: 101
         y: 101
-        width: 17
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -566,12 +566,12 @@ TextureImporter:
       name: NPC with Cart 2_23
       rect:
         serializedVersion: 2
-        x: 167
+        x: 151
         y: 101
-        width: 17
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -586,7 +586,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d53dd1e307c02495988c8c4cc5a8a34e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 

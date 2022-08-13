@@ -5,6 +5,7 @@ using UnityEngine;
 public class ListHandler : MonoBehaviour
 {
     public List<ScriptableObject> groceryList = new List<ScriptableObject>();
+    public GroceryItem groceryItem;
     public GameObject completeMessage;
     public int listLength;
     public List<ScriptableObject> bag = new List<ScriptableObject>();
@@ -29,12 +30,12 @@ public class ListHandler : MonoBehaviour
         {
             completeMessage.SetActive(false);
         }
-
-        if (bag.Count == listLength - 1)
+        
+       if (groceryList.Count == 1) 
         {
             onLastItem = true;
         }
-        else
+        else 
         {
             onLastItem = false;
         }
