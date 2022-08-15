@@ -6,39 +6,48 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: f4f7c23812ce849dda399888ae079130
+    path: Assets/Scenes/Menus/Main Menu - WebGL Only.unity
+    guid: 27c955edd6fea4245ae76e3c4a37cfb8
   - enabled: 1
-    path: Assets/Scenes/Game Over.unity
+    path: Assets/Scenes/Menus/Game Over.unity
     guid: 3ad2460179885473e811196cca868daf
   - enabled: 1
-    path: Assets/Scenes/Level Complete!.unity
+    path: Assets/Scenes/Menus/Level Complete!.unity
     guid: 30170f85c03374f9cb6300d7cc1cfcdb
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: 896b1442ab56c4e4ea9d41f79aeb03c1
-  - enabled: 1
-    path: Assets/Scenes/Intro.unity
+    path: Assets/Scenes/Cutscenes/Intro.unity
     guid: 03df037309713425992730c5afdff354
   - enabled: 1
-    path: Assets/Scenes/City Overworld.unity
+    path: Assets/Scenes/Cutscenes/City Overworld.unity
     guid: 7fea8b9dbb9c643fa8abe873c9142704
   - enabled: 1
-    path: Assets/Scenes/Level 4 Intro.unity
-    guid: d531f4083af3b49bd93708bca5f1f7db
+    path: Assets/Scenes/Levels/Level 1.unity
+    guid: 896b1442ab56c4e4ea9d41f79aeb03c1
   - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: 9c4a849bd1bda4bb59b84687fa635244
-  - enabled: 1
-    path: Assets/Scenes/Level 4.unity
-    guid: 1583a896d17fa44d6b1badcd6a959220
-  - enabled: 1
-    path: Assets/Scenes/Level 3 Intro.unity
-    guid: 8f788d1445989435fbf47e861e356bbc
-  - enabled: 1
-    path: Assets/Scenes/Level 2 Intro.unity
+    path: Assets/Scenes/Cutscenes/Level 2 Intro.unity
     guid: e3b5c125f4e8b433babfc43c33b1896e
   - enabled: 1
-    path: Assets/Scenes/Level 3.unity
+    path: Assets/Scenes/Levels/Level 2.unity
+    guid: 9c4a849bd1bda4bb59b84687fa635244
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Level 3 Intro.unity
+    guid: 8f788d1445989435fbf47e861e356bbc
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3.unity
     guid: f1094407c866840e5beda020413fa2bf
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Level 4 Intro.unity
+    guid: d531f4083af3b49bd93708bca5f1f7db
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 4.unity
+    guid: 1583a896d17fa44d6b1badcd6a959220
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Level 5 Intro.unity
+    guid: 9fac356008b8b4040850899c3e137a47
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 5.unity
+    guid: a27530750839542558941143088f84f3
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ending.unity
+    guid: f357648dcabc9444bbc973efbc33e151
   m_configObjects: {}
