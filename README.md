@@ -16,7 +16,8 @@ To set up this repo, install and download Unity - this project was built using U
 After you have installed Unity, open Unity Hub and select Open>Add project to disk and point to the location of your local respository.
 
 # Installation
-Game has been deployed to: https://fakeradish.itch.io/supermarket-scramble
+Game has been deployed to: https://fakeradish.itch.io/supermarket-scramble.  
+
 I have included both an in-browser playing experience as well as desktop versions for Mac and Windows. For desktop versions, all you need to do is unzip. Depending on your security settings on MacOS, you may need to authorize the app by going into Settings>Security>Open Anyway.
 
 
